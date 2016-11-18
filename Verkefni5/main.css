@@ -1,0 +1,51 @@
+body {
+    width: 100px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container{
+    background: url(images/ptx_bigger.jpg) 0% 10%;
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    height: 3em;
+    width: 100vw; 
+    position: fixed;
+    background: black;
+    top: 0;
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
+
+.nedri{
+    height: 100px;
+    width: 100vw;
+    background: black;
+    margin-top: 100px;
+}
+
+.texti {
+    padding: 40px;
+}
+
+p {
+    background: rgba(60,60,60,.5);
+    font-size: 2em;
+    margin: 0;
+}
+
+
+@media only screen and (min-width: 48em) {  /*Tölva*/
+    body{}
+}
+@media only screen and (max-width: 48em) {  /*Sími*/
+    body {
+        height: 100vh;
+    }
+}
